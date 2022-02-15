@@ -12,6 +12,10 @@
     padding-right: 113.5px;
     margin: auto;
     padding-bottom: 16px;
+    @media (min-width: 992px) {
+      font-size: 60px;
+      padding-bottom: 0;
+    }
   }
   &-description {
     font-size: 14px;
@@ -24,6 +28,10 @@
     text-align: center;
 
     padding: 0px 16px;
+
+    @media (min-width: 992px) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -32,20 +40,34 @@
   color: white;
   flex-direction: column;
   border-radius: 8px;
-  width: 100%;
-  margin: 0px 16px 64px 16px;
-  padding: 24px 0px 24px 24px;
-
-  &-username-label {
+  max-width: 90%;
+  padding: 16px 20px;
+  background-color: #1c1e22;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 8px 16px 64px 16px;
+  align-items: center;
+  // margin-left: 16px;
+  // margin-right: 16px;
+  // margin-bottom: 64px;
+  @media (min-width: 992px) {
+    max-width: 447px;
+    max-height: 546px;
+    margin-left: 38%;
+    margin-bottom: 128px;
+  }
+  &-username-label,
+  &-useremail-label,
+  &-usermessage-label {
     font-size: 16px;
 
     display: block;
     padding-bottom: 8px;
   }
-  &-username-input {
+  &-username-input,
+  &-useremail-input {
     font-size: 16px;
     padding: 16px 0px 16px 20px;
-
     display: block;
     margin-bottom: 24px;
     border: 1px solid #a0a0a1;
@@ -53,29 +75,9 @@
     background-color: #1c1e22;
     color: #a0a0a1;
     font-family: DM Sans;
-  }
-  &-useremail-label {
-    font-size: 16px;
-
-    display: block;
-    padding-bottom: 8px;
-  }
-  &-useremail-input {
-    font-size: 16px;
-    padding: 16px 0px 16px 20px;
-
-    display: block;
-    margin-bottom: 24px;
-    border: 1px solid #a0a0a1;
-    border-radius: 8px;
-    background-color: #1c1e22;
-    color: #a0a0a1;
-  }
-  &-usermessage-label {
-    font-size: 16px;
-
-    display: block;
-    padding-bottom: 8px;
+    @media (min-width: 992px) {
+      width: 399px;
+    }
   }
   &-usermessage-input {
     font-size: 16px;
@@ -87,6 +89,10 @@
     border-radius: 8px;
     background-color: #1c1e22;
     color: #a0a0a1;
+    font-family: DM Sans;
+    @media (min-width: 992px) {
+      width: 399px;
+    }
   }
   &-submit {
     color: #ffffff;
@@ -94,5 +100,8 @@
     border: 0px;
     padding: 16px 119.5px 16px 119.5px;
     border-radius: 8px;
+    @media (min-width: 992px) {
+      width: 419px;
+    }
   }
 }
