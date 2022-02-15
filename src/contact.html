@@ -64,17 +64,34 @@
     </header>
     <div class="contact-forms container flex">
       <form action="">
-        <label for="username">Seu nome</label>
-        <input type="text" name="username" placeholder="Nome" />
-        <label for="useremail">Seu e-mail</label>
+        <label for="username" class="contact-forms-username-label"
+          >Seu nome</label
+        >
+        <input
+          type="text"
+          name="username"
+          class="contact-forms-username-input"
+          placeholder="Nome"
+        />
+        <label for="useremail" class="contact-forms-useremail-label"
+          >Seu e-mail</label
+        >
         <input
           type="email"
           name="useremail"
           placeholder="meu.email@gmail.com"
+          class="contact-forms-useremail-input"
         />
-        <label for="usermessage">Mensagem</label>
-        <input type="text" placeholder="Olá..." name="usermessage" />
-        <input type="button" value="Enviar" />
+        <label for="usermessage" class="contact-forms-usermessage-label"
+          >Mensagem</label
+        >
+        <input
+          type="text"
+          placeholder="Olá..."
+          name="usermessage"
+          class="contact-forms-usermessage-input"
+        />
+        <input type="button" value="Enviar" class="contact-forms-submit" />
       </form>
     </div>
     <footer class="footer flex">

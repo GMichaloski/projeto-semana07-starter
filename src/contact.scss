@@ -31,6 +31,68 @@
   background-color: #26292d;
   color: white;
   flex-direction: column;
-  border-radius: 2px;
-  margin: 0px 30px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0px 16px 64px 16px;
+  padding: 24px 0px 24px 24px;
+
+  &-username-label {
+    font-size: 16px;
+
+    display: block;
+    padding-bottom: 8px;
+  }
+  &-username-input {
+    font-size: 16px;
+    padding: 16px 0px 16px 20px;
+
+    display: block;
+    margin-bottom: 24px;
+    border: 1px solid #a0a0a1;
+    border-radius: 8px;
+    background-color: #1c1e22;
+    color: #a0a0a1;
+    font-family: DM Sans;
+  }
+  &-useremail-label {
+    font-size: 16px;
+
+    display: block;
+    padding-bottom: 8px;
+  }
+  &-useremail-input {
+    font-size: 16px;
+    padding: 16px 0px 16px 20px;
+
+    display: block;
+    margin-bottom: 24px;
+    border: 1px solid #a0a0a1;
+    border-radius: 8px;
+    background-color: #1c1e22;
+    color: #a0a0a1;
+  }
+  &-usermessage-label {
+    font-size: 16px;
+
+    display: block;
+    padding-bottom: 8px;
+  }
+  &-usermessage-input {
+    font-size: 16px;
+    padding: 16px 0px 106px 20px;
+
+    display: block;
+    margin-bottom: 24px;
+    border: 1px solid #a0a0a1;
+    border-radius: 8px;
+    background-color: #1c1e22;
+    color: #a0a0a1;
+  }
+  &-submit {
+    color: #ffffff;
+    background-color: #5c62ec;
+    border: 0px;
+    padding: 16px 119.5px 16px 119.5px;
+    border-radius: 8px;
+  }
 }
